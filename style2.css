@@ -1,0 +1,121 @@
+.small{
+    display: inline-block;
+    float: left;
+}
+
+.topBar{
+  height: 60px;
+  position: fixed;
+  background: white;
+  box-shadow: 0 9px 10px rgba(0,0,0,0.7);
+  z-index: 10;
+  text-align: center;
+  padding-bottom:0px;
+  width: 92%;
+  margin-left:auto;
+  margin-right: auto;
+  padding-left:10%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.header-name h1{
+  float: left;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: navy;
+  margin-left: 2px;
+  width: 30%;
+}
+.nav{
+  float: right;
+  overflow: hidden;
+  padding-bottom: 20px;
+  width: 60%;
+  background: ;
+
+}
+
+.nav li{
+  float: left;
+  font-size: 15px;
+  margin: ;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  //width: 100%;
+  margin-left: 20%;
+  margin-right: 0%;
+
+  background: ;
+  //text-align: center;
+  //overflow: hidden;
+}
+.nav li a{
+  text-decoration: none;
+  overflow: hidden;
+}
+
+
+.aboutMe{
+  text-align: center;
+  //width: 70%;
+  height: 400px;
+  margin-left: 16%;
+  margin:auto;
+  padding-top: 10%;
+  background: #;
+}
+.aboutMe h3, small{
+  float: left;
+  width: 100%;
+  margin-right: 30px;
+  padding-top: 30px;
+}
+
+.FrontEnd{
+  height: 100%;
+  background-color: #ECF0F1;
+}
+
+.name2{
+  padding-top: 15%;
+}
+
+.name3{
+  padding-top: 24%;
+}
+
+.icons{
+  position:fixed;
+  z-index: 10;
+  text-align: left;
+  width:;
+  margin-left:auto;
+  margin-right: auto;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.icons a{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.icons a:active{
+  background-color: yellow;
+}
+
+.Links{
+  text-align: center;
+
+}
+
+.Links a{
+  text-decoration: none;
+  list-style: none;
+}
+h2, h4{
+  color: navy;
+}
