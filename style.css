@@ -126,8 +126,28 @@
   height: 800px;
 }
 
-//Media queries for my topBar
+.Links{
+  text-align: center;
+  height: 400px;
+}
 
+.Links a{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.footer{
+  height: 20px;
+  font-size: 15px;
+  background-color: grey;
+  text-align: center;
+  width: 100%;
+  ;
+  color: white
+
+
+}
 
 //Media queries for my AyCons
 @media only screen and (min-width: 320px) {  /* 320px */
@@ -155,15 +175,7 @@
   }
 }*/
 
-.Links{
-  text-align: center;
-  height: 400px;
-}
 
-.Links a{
-  text-decoration: none;
-  list-style: none;
-}
 h2, h4{
   color: navy;
 }
