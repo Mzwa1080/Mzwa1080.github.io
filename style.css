@@ -1,58 +1,61 @@
-.small{
-    display: inline-block;
-    float: left;
+*{
+  box-sizing: border-box;
 }
-
-@media only screen and (min-width: 19.5em) {  /* 540px */
-  .topBar {
-    width: 0%;
-  }
-}
-
-@media only screen and (min-width: 19.5em) {  /* 320px */
-  .container {
-    padding-top: 10%;
-  }
-}
-
 .topBar{
-  height: 60px;
   position: fixed;
+  top: 0;
   background: white;
-  box-shadow: 0 9px 10px rgba(0,0,0,0.7);
-  z-index: 10;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.7);
   text-align: center;
-  padding-bottom:0px;
-  width: 92%;
-  margin-left:auto;
-  margin-right: auto;
-  padding-left:10%;
-  overflow: hidden;
-  display: inline-block;
+  margin: 0;
+
 }
 
-.header-name h1{
+.main {
+  margin-top: 3rem;
+}
+
+.row::before, .row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ h1{
   float: left;
-  font-size: 30px;
+  display: block;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 10px;
   color: navy;
-  margin-left: 2px;
-  width: 30%;
-}
-.nav{
-  float: right;
-  overflow: hidden;
-  padding-bottom: 20px;
-  width: 60%;
-  background: ;
+
+  width: 20%;
 
 }
-
+.nav-links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-top: 3%;
+}
+.nav-item a {
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  //border: 1px solid #F0F0F1;
+}
 .nav li{
   float: left;
   font-size: 15px;
-  margin: ;
   list-style: none;
   text-decoration: none;
   display: inline-block;
@@ -60,7 +63,6 @@
   margin-left: 20%;
   margin-right: 0%;
 
-  background: ;
   //text-align: center;
   //overflow: hidden;
 }
@@ -92,21 +94,23 @@
 }
 
 .name2{
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 .name3{
-  padding-top: 24%;
+  padding-top: 20%;
 }
 
 .icons{
   position:fixed;
   z-index: 10;
   text-align: left;
-  width:;
-  margin-left:auto;
+  width:60%;
+  padding-top: 25%;
+  margin-left:9.29%;
   margin-right: auto;
   overflow: hidden;
+  clear: both;
   vertical-align: middle;
 }
 
@@ -119,6 +123,101 @@
   background-color: yellow;
 }
 
+/*@media only screen and (min-width: 19.5em) {  /*
+  .topBar {
+    width: 50%;
+  }
+}*/
+
+
+
+@media only screen and (min-width: 538px) {
+  .topBar{
+
+  }
+}
+
+
+@media only screen and (min-width: 538px) {
+  .topBar{
+    float: ;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}
+
+//Media queries for my topBar
+@media only screen and (max-width: 600px) {
+  .topBar{
+    float: ;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .topBar{
+    float: ;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .topBar{
+    float: ;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .topBar{
+    float: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right:;
+    padding-left: ;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .topBar{
+    float: left;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+//Media queries for my AyCons
+@media only screen and (min-width: 320px) {  /* 320px */
+  .AyCons {
+    float: left;
+    width: %;
+    margin-left: -8.79%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .AyCons{
+    float: left;
+    width: %;
+    margin-left: -8.79%;
+  }
+}
+
+
+
+/*
+@@media only screen and (min-width: 32.5em) {
+  .AyCons{
+    margin-left: 9.29%;
+  }
+}*/
+
 .Links{
   text-align: center;
 
@@ -130,4 +229,9 @@
 }
 h2, h4{
   color: navy;
+}
+
+h5{
+  padding-bottom: -40%;
+  margin: 0px;
 }
