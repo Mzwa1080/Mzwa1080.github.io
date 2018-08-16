@@ -88,8 +88,9 @@
   padding-top: 30px;
 }
 
+/* -----------------------HEIGHT!!!---------*/
 .FrontEnd{
-  height: 800px;
+  height: 1400px;
   background-color: #ECF0F1;
 }
 
@@ -101,6 +102,16 @@
   padding-top: 20%;
 }
 
+.name4{
+  padding-top: 5%;
+}
+
+.name5{
+  padding-top: 10%;
+}
+.name6{
+  padding-top: 5%;
+}
 .icons{
   position:fixed;
   z-index: 100;
@@ -129,6 +140,7 @@
 .Links{
   text-align: center;
   height: 400px;
+    background-color: #ECF0F1;
 }
 
 .Links a{
@@ -136,6 +148,11 @@
   list-style: none;
 }
 
+.upp{
+  padding-top: 10%;
+  margin-top: 10%;
+  text-align: center;
+}
 
 .footer{
   height: 20px;
