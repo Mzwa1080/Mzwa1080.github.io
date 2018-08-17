@@ -1,18 +1,31 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background-color:#fbc02d;
+}
 .topBar{
   position: fixed;
   top: 0;
-  background: white;
+  background: #fbc02d;
   box-shadow: 0px 1px 6px rgba(0,0,0,0.7);
   text-align: center;
-  margin: 0;
+  /*margin: 0;*/
   z-index: 10;
+  padding-top: -1rem;
+  margin-top: -1rem;
 }
 
+.down{
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+.nav-item:hover{
+  background-color: white;
+}
 .main {
   margin-top: 3rem;
+  position: relative;
 }
 
 .row::before, .row:after{
@@ -149,21 +162,18 @@
 }
 
 .upp{
-  padding-top: 10%;
-  margin-top: 10%;
+  padding-top: 4rem;
+  margin-top: 4rem;
   text-align: center;
 }
 
 .footer{
-  height: 20px;
-  font-size: 15px;
-  background-color: grey;
+  height: 80px;
+  font-size: 18px;
+  background-color: #212121;
   text-align: center;
   width: 100%;
-  ;
   color: white
-
-
 }
 
 //Media queries for my AyCons
